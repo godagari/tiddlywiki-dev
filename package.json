@@ -1,27 +1,27 @@
 {
-  "name": "tw5-github-actions-example",
+  "name": "tw-mashiur-rahman-bangla-articles",
   "version": "1.0.0",
-  "description": "Example of using Github actions to build and publish a TiddlyWiki",
+  "description": "Mahsiur Rahman's bangla articles archive build with TiddlyWiki",
   "main": "index.js",
   "scripts": {
     "build": "node ./node_modules/tiddlywiki/tiddlywiki.js . --build index"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/saqimtiaz/TW5-github-actions-example.git"
+    "url": "git+https://github.com/godagari/tiddlywiki.git"
   },
   "keywords": [
     "TW5",
     "TW5-plugins",
     "TiddlyWiki"
   ],
-  "author": "Saq Imtiaz",
+  "author": "Mashiur Rahman",
   "license": "BSD-3-Clause",
   "bugs": {
-    "url": "https://github.com/saqimtiaz/TW5-github-actions-example/issues"
+    "url": "https://github.com/godagari/tiddlywiki/issues"
   },
-  "homepage": "https://github.com/saqimtiaz/TW5-github-actions-example#readme",
+  "homepage": "https://github.com/godagari/tiddlywiki/#readme",
   "dependencies": {
-    "tiddlywiki": "^5.1.23"
+    "tiddlywiki": "^5.2.2"
   }
 }
